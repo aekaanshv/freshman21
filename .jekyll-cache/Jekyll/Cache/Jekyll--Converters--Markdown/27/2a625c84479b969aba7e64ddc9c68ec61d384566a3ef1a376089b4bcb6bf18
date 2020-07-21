@@ -1,0 +1,16 @@
+I"$<p>The <a href="https://github.com/yulijia/freshman21/blob/master/_config.yml">config.yml file</a> in the Freshman21 theme includes five parts.</p>
+
+<p><strong>First part</strong> is the site info.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s">Freshman21</span> <span class="c1"># blog title</span>
+<span class="na">tagline</span><span class="pi">:</span> <span class="s">Another Jekyll theme, Freshman twenty-first</span> <span class="c1"># blog sub-titile</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">Lijia YU</span> <span class="c1"># author name</span>
+<span class="na">email</span><span class="pi">:</span> <span class="s">yu@lijiayu.net</span> <span class="c1"># author email</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Freshman21</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">Jekyll</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">theme."</span> <span class="c1"># You can edit this line in _config.yml. It will appear in your document head meta and in </span>
+<span class="s">your feed.xml site description</span>
+<span class="na">keywords</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Jekyll,</span><span class="nv"> </span><span class="s">theme,</span><span class="nv"> </span><span class="s">Freshman21"</span> <span class="c1"># html meta keywords</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/freshman21"</span> <span class="c1"># the subpath of your site, e.g. /blog</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">http://yulijia.net/freshman21"</span> <span class="c1"># the base hostname &amp; protocol for your site</span>
+</code></pre></div></div>
+
+:ET

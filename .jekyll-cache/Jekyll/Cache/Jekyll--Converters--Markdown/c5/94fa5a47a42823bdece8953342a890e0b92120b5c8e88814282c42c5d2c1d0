@@ -1,0 +1,262 @@
+I"'<ul class="tags-box">
+
+
+<a href="#HelloWorld" title="HelloWorld" rel="1">HelloWorld<span class="size"> 1</span></a>
+
+<a href="#Père David's deer" title="Père David's deer" rel="1">Père David's deer<span class="size"> 1</span></a>
+
+<a href="#milu" title="milu" rel="1">milu<span class="size"> 1</span></a>
+
+<a href="#Elaphurus davidianus" title="Elaphurus davidianus" rel="1">Elaphurus davidianus<span class="size"> 1</span></a>
+
+<a href="#reindeer" title="reindeer" rel="1">reindeer<span class="size"> 1</span></a>
+
+<a href="#sample-post" title="sample-post" rel="3">sample-post<span class="size"> 3</span></a>
+
+<a href="#structure" title="structure" rel="1">structure<span class="size"> 1</span></a>
+
+<a href="#configure" title="configure" rel="1">configure<span class="size"> 1</span></a>
+
+<a href="#summary" title="summary" rel="1">summary<span class="size"> 1</span></a>
+
+<a href="#features" title="features" rel="1">features<span class="size"> 1</span></a>
+
+<a href="#google analytics" title="google analytics" rel="2">google analytics<span class="size"> 2</span></a>
+
+<a href="#bugs" title="bugs" rel="1">bugs<span class="size"> 1</span></a>
+
+<a href="#version" title="version" rel="2">version<span class="size"> 2</span></a>
+
+<a href="#new features" title="new features" rel="1">new features<span class="size"> 1</span></a>
+
+<a href="#google search" title="google search" rel="1">google search<span class="size"> 1</span></a>
+
+<a href="#back to top" title="back to top" rel="1">back to top<span class="size"> 1</span></a>
+
+<a href="#read more" title="read more" rel="1">read more<span class="size"> 1</span></a>
+
+<a href="#character" title="character" rel="1">character<span class="size"> 1</span></a>
+
+<a href="#MIT license" title="MIT license" rel="1">MIT license<span class="size"> 1</span></a>
+
+<a href="#Highlight" title="Highlight" rel="1">Highlight<span class="size"> 1</span></a>
+
+<a href="#code" title="code" rel="1">code<span class="size"> 1</span></a>
+
+<a href="#Jquery" title="Jquery" rel="1">Jquery<span class="size"> 1</span></a>
+
+<a href="#Japanese" title="Japanese" rel="1">Japanese<span class="size"> 1</span></a>
+
+<a href="#navigation caption" title="navigation caption" rel="1">navigation caption<span class="size"> 1</span></a>
+
+<a href="#Polish" title="Polish" rel="1">Polish<span class="size"> 1</span></a>
+
+<a href="#Korean" title="Korean" rel="1">Korean<span class="size"> 1</span></a>
+
+<a href="#Russian" title="Russian" rel="1">Russian<span class="size"> 1</span></a>
+
+<a href="#language support" title="language support" rel="1">language support<span class="size"> 1</span></a>
+
+<a href="#Turkish" title="Turkish" rel="1">Turkish<span class="size"> 1</span></a>
+
+<a href="#Indonesian" title="Indonesian" rel="1">Indonesian<span class="size"> 1</span></a>
+
+</ul>
+
+<ul class="tags-box">
+
+<li id="HelloWorld">HelloWorld</li>
+
+<time datetime="2011-07-22">2011-07-22</time> &raquo;
+<a href="/freshman21/uncategorized/2011/07/22/hello-world.html" title="Hello world!">Hello world!</a><br />
+
+
+<li id="Père David's deer">Père David's deer</li>
+
+<time datetime="2013-10-10">2013-10-10</time> &raquo;
+<a href="/freshman21/articles/2013/10/10/milu.html" title="Père David's deer">Père David's deer</a><br />
+
+
+<li id="milu">milu</li>
+
+<time datetime="2013-10-10">2013-10-10</time> &raquo;
+<a href="/freshman21/articles/2013/10/10/milu.html" title="Père David's deer">Père David's deer</a><br />
+
+
+<li id="Elaphurus davidianus">Elaphurus davidianus</li>
+
+<time datetime="2013-10-10">2013-10-10</time> &raquo;
+<a href="/freshman21/articles/2013/10/10/milu.html" title="Père David's deer">Père David's deer</a><br />
+
+
+<li id="reindeer">reindeer</li>
+
+<time datetime="2013-12-25">2013-12-25</time> &raquo;
+<a href="/freshman21/articles/2013/12/25/I-am-a-reindeer.html" title="I am a reindeer">I am a reindeer</a><br />
+
+
+<li id="sample-post">sample-post</li>
+
+<time datetime="2014-12-18">2014-12-18</time> &raquo;
+<a href="/freshman21/articles/2014/12/18/how-to-install.html" title="How to install this theme">How to install this theme</a><br />
+
+<time datetime="2014-12-13">2014-12-13</time> &raquo;
+<a href="/freshman21/articles/2014/12/13/simple-post.html" title="Sample Post">Sample Post</a><br />
+
+<time datetime="2013-12-25">2013-12-25</time> &raquo;
+<a href="/freshman21/articles/2013/12/25/I-am-a-reindeer.html" title="I am a reindeer">I am a reindeer</a><br />
+
+
+<li id="structure">structure</li>
+
+<time datetime="2014-12-19">2014-12-19</time> &raquo;
+<a href="/freshman21/articles/howto/2014/12/19/freshman21-structure.html" title="Theme structure">Theme structure</a><br />
+
+
+<li id="configure">configure</li>
+
+<time datetime="2014-12-19">2014-12-19</time> &raquo;
+<a href="/freshman21/articles/howto/2014/12/19/how-to-set-the-config-file.html" title="How to set the config.yml file">How to set the config.yml file</a><br />
+
+
+<li id="summary">summary</li>
+
+<time datetime="2015-01-18">2015-01-18</time> &raquo;
+<a href="/freshman21/howto/2015/01/18/how-to-create-post-summary.html" title="How to create post summary">How to create post summary</a><br />
+
+
+<li id="features">features</li>
+
+<time datetime="2015-02-08">2015-02-08</time> &raquo;
+<a href="/freshman21/articles/2015/02/08/a-small-change.html" title="A small change">A small change</a><br />
+
+
+<li id="google analytics">google analytics</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+<time datetime="2015-02-08">2015-02-08</time> &raquo;
+<a href="/freshman21/articles/2015/02/08/a-small-change.html" title="A small change">A small change</a><br />
+
+
+<li id="bugs">bugs</li>
+
+<time datetime="2015-02-20">2015-02-20</time> &raquo;
+<a href="/freshman21/articles/2015/02/20/fix-bugs.html" title="Fix bugs">Fix bugs</a><br />
+
+
+<li id="version">version</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+<time datetime="2015-03-16">2015-03-16</time> &raquo;
+<a href="/freshman21/articles/2015/03/16/update.html" title="update">update</a><br />
+
+
+<li id="new features">new features</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+
+<li id="google search">google search</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+
+<li id="back to top">back to top</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+
+<li id="read more">read more</li>
+
+<time datetime="2015-03-31">2015-03-31</time> &raquo;
+<a href="/freshman21/news/2015/03/31/2.0version.html" title="2.0 version">2.0 version</a><br />
+
+
+<li id="character">character</li>
+
+<time datetime="2015-06-03">2015-06-03</time> &raquo;
+<a href="/freshman21/articles/2015/06/03/invalid-CP949-character.html" title="Error: invalid CP949 character">Error: invalid CP949 character</a><br />
+
+
+<li id="MIT license">MIT license</li>
+
+<time datetime="2015-07-02">2015-07-02</time> &raquo;
+<a href="/freshman21/articles/2015/07/02/MIT-license.html" title="MIT license">MIT license</a><br />
+
+
+<li id="Highlight">Highlight</li>
+
+<time datetime="2016-01-02">2016-01-02</time> &raquo;
+<a href="/freshman21/howto/2016/01/02/Highlight-the-code.html" title="Highlighting the code">Highlighting the code</a><br />
+
+
+<li id="code">code</li>
+
+<time datetime="2016-01-02">2016-01-02</time> &raquo;
+<a href="/freshman21/howto/2016/01/02/Highlight-the-code.html" title="Highlighting the code">Highlighting the code</a><br />
+
+
+<li id="Jquery">Jquery</li>
+
+<time datetime="2016-05-24">2016-05-24</time> &raquo;
+<a href="/freshman21/news/2016/05/24/new-features.html" title="new features: keyboard shortcuts for  pagination">new features: keyboard shortcuts for  pagination</a><br />
+
+
+<li id="Japanese">Japanese</li>
+
+<time datetime="2016-06-06">2016-06-06</time> &raquo;
+<a href="/freshman21/news/2016/06/06/add-Japanese-language.html" title="add Japanese language">add Japanese language</a><br />
+
+
+<li id="navigation caption">navigation caption</li>
+
+<time datetime="2016-06-06">2016-06-06</time> &raquo;
+<a href="/freshman21/news/2016/06/06/auto-generate-navigation-caption.html" title="auto generate navigation caption">auto generate navigation caption</a><br />
+
+
+<li id="Polish">Polish</li>
+
+<time datetime="2016-06-07">2016-06-07</time> &raquo;
+<a href="/freshman21/news/2016/06/07/add-Polish-language.html" title="add Polish language">add Polish language</a><br />
+
+
+<li id="Korean">Korean</li>
+
+<time datetime="2016-09-01">2016-09-01</time> &raquo;
+<a href="/freshman21/news/2016/09/01/Korean-and-Russian-language-support.html" title="Korean and Russian language support">Korean and Russian language support</a><br />
+
+
+<li id="Russian">Russian</li>
+
+<time datetime="2016-09-01">2016-09-01</time> &raquo;
+<a href="/freshman21/news/2016/09/01/Korean-and-Russian-language-support.html" title="Korean and Russian language support">Korean and Russian language support</a><br />
+
+
+<li id="language support">language support</li>
+
+<time datetime="2017-01-31">2017-01-31</time> &raquo;
+<a href="/freshman21/news/2017/01/31/Add-Turkish-tr-language-support.html" title="Add Turkish (tr) language support">Add Turkish (tr) language support</a><br />
+
+
+<li id="Turkish">Turkish</li>
+
+<time datetime="2017-01-31">2017-01-31</time> &raquo;
+<a href="/freshman21/news/2017/01/31/Add-Turkish-tr-language-support.html" title="Add Turkish (tr) language support">Add Turkish (tr) language support</a><br />
+
+
+<li id="Indonesian">Indonesian</li>
+
+<time datetime="2017-11-06">2017-11-06</time> &raquo;
+<a href="/freshman21/news/2017/11/06/Add-Indonesian-support.html" title="Add Indonesian support">Add Indonesian support</a><br />
+
+
+
+</ul>
+:ET

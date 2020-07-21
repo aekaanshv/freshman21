@@ -1,0 +1,71 @@
+I"�<blockquote>
+  <p>NOTICE:</p>
+
+  <p>The ‘pygments’ highlighter is currently unsupported on GitHub Pages. I use ‘rouge’ for highlighting instead. 
+If some of you receive the email of ‘Page build warning’ from GitHub, to suppress this warning, change the ‘highlighter’ value to ‘rouge’ in your ‘_config.yml’.</p>
+</blockquote>
+
+<p>I use <a href="http://pygments.org/">Pygments</a> as syntax highlighter for this theme.</p>
+
+<p>To generate a sysntax highligted code, the grammar is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## please remove the space between { }and %
+
+{ % highlight R % } 
+a=1:10
+for(i in a){
+print(i)
+}
+{ % endhighlight % }
+</code></pre></div></div>
+
+<p>We can see the result as here:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="o">=</span><span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="w">
+</span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">a</span><span class="p">){</span><span class="w">
+</span><span class="n">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>To install pygments, try:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pygments
+
+<span class="c">## Ubuntu/Debain </span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>python-pygments
+<span class="c">## Fedora</span>
+yum/dnf <span class="nb">install </span>python-pygments
+<span class="c">## Arch</span>
+pacman <span class="nt">-S</span> python-pygments
+</code></pre></div></div>
+
+<p>Freshman21 has already include the highlighte style.</p>
+
+<p>If you don’t like it. 
+Just remove it and generate you own highlight style.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## change default to another style name 
+pygmentize -f html -a .highlight -S default &gt; ./sass/_syntax-highlighting.scss
+</code></pre></div></div>
+
+<h2 id="update-at-20160121">Update at 20160121</h2>
+
+<p>This theme know support using <code class="language-plaintext highlighter-rouge">triple backticks</code> ``` to write code blocks.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```r
+a=read.table("test.txt")
+head(a)
+```
+</code></pre></div></div>
+
+<p>It looks like:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="o">=</span><span class="n">read.table</span><span class="p">(</span><span class="s2">"test.txt"</span><span class="p">)</span><span class="w">
+</span><span class="n">head</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><q>If you want to use triple backticks, 
+Please install <strong>Rouge</strong> by this command  <code class="language-plaintext highlighter-rouge">gem install kramdown rouge</code>.</q></p>
+
+<p>Reference: <a href="https://sacha.me/articles/jekyll-rouge/">Syntax Highlighting in Jekyll With Rouge</a></p>
+:ET

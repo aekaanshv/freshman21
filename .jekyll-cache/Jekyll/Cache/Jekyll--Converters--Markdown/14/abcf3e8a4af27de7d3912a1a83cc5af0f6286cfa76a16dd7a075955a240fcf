@@ -1,0 +1,7 @@
+I"¿<p>We can make a summary of post, and show it in the home page.</p>
+
+<h3 id="how-to-only-show-a-part-of-posts">How to only show a part of posts?</h3>
+
+<p><strong>Method 1.</strong> In <a href="https://github.com/yulijia/freshman21/blob/master/index.html">index.html</a> file, set <code> \{\{ post.content | strip_html | truncatewords: 50 \}\}</code> , produces a more consistent excerpt. It gets the first 50 words and strips any formatting.</p>
+
+:ET

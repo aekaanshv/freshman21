@@ -1,0 +1,22 @@
+I"¹<p>There are three versions.</p>
+
+<ul>
+  <li>master branch: the simplest template, original version. No js.</li>
+</ul>
+
+<!-- more -->
+
+<ul>
+  <li>
+    <p>gh-pages branch: master branch with google analytics js template.</p>
+  </li>
+  <li>
+    <p>readmore branch: master branch with article summary.</p>
+  </li>
+</ul>
+
+<p>Enjoy.</p>
+
+<p>I have been working on a big 2.0 update to this theme. Branch gh-pages and readmore will be merged.</p>
+
+:ET

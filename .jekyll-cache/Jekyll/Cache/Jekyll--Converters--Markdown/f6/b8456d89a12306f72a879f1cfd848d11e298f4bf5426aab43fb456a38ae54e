@@ -1,0 +1,53 @@
+I"ö<p>Thanks all the users of this theme. You support is the driving force for my coding.</p>
+
+<p>Today I fix a bug about navigation caption.</p>
+
+<p>In the old theme version, I didnâ€™t know how to change the navigation captions automatically when setting different language.</p>
+
+<p>I using the code below to change the page title and navigation caption with site local language.</p>
+
+<div class="language-handlebars highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">{{</span> <span class="nv">page</span><span class="p">.</span><span class="nv">title</span> <span class="p">|</span> <span class="nv">replace</span><span class="err">:</span> <span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="err">,</span> <span class="nv">site</span><span class="p">.</span><span class="nv">locales</span><span class="p">[</span><span class="nv">site</span><span class="p">.</span><span class="nv">default_locale</span><span class="p">].[</span><span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="p">]</span> <span class="k">}}</span> 
+</code></pre></div></div>
+
+<p>After using those code, if you add a new page to the blog, please make sure add a locale caption tag in <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you want to using variables inside YAML front matter block, you can check <a href="http://acegik.net/blog/ruby/jekyll/plugins/howto-nest-liquid-template-variables-inside-yaml-front-matter-block.html" title="HOWTO NEST LIQUID TEMPLATE VARIABLES INSIDE YAML FRONT MATTER BLOCK">this aritcle</a> posted by <a href="https://github.com/pnhung177">pnhung177</a>.</p>
+
+<p>It is a great plugin to do the same thing as my code when you need to adjust navigation caption.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _plugins/expand_nested_variable_filter.rb</span>
+
+<span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">module</span> <span class="nn">ExpandNestedVariableFilter</span>
+    <span class="k">def</span> <span class="nf">flatify</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+      <span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">input</span><span class="p">).</span><span class="nf">render</span><span class="p">(</span><span class="vi">@context</span><span class="p">)</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="p">.</span><span class="nf">register_filter</span><span class="p">(</span><span class="no">Jekyll</span><span class="o">::</span><span class="no">ExpandNestedVariableFilter</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In the YAML front matter, you can insert variable.</p>
+
+<div class="language-handlebars highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+caption: "Introduction to <span class="k">{{</span> <span class="nv">site</span><span class="p">.</span><span class="nv">title</span> <span class="k">}}</span>"
+---
+</code></pre></div></div>
+
+<p>Now we can using set <code class="language-plaintext highlighter-rouge">en</code>, <code class="language-plaintext highlighter-rouge">cn</code> or <code class="language-plaintext highlighter-rouge">jp</code> to switch blog language in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file. And all the navigation caption is automatically changed.</p>
+
+<h3 id="english">English</h3>
+
+<p><img src="http://i.imgur.com/uETllD5.png" alt="English" /></p>
+
+<h3 id="chinese">Chinese</h3>
+
+<p><img src="http://i.imgur.com/grdf8Ph.png" alt="Chinese" /></p>
+
+<h3 id="japanese">Japanese</h3>
+
+<p><img src="http://i.imgur.com/yRaeWVH.png" alt="Japanese" /></p>
+
+:ET

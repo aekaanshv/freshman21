@@ -1,0 +1,30 @@
+I"�<p>We can make a summary of post, and show it in the home page.</p>
+
+<h3 id="how-to-only-show-a-part-of-posts">How to only show a part of posts?</h3>
+
+<p><strong>Method 1.</strong> In <a href="https://github.com/yulijia/freshman21/blob/master/index.html">index.html</a> file, set <code> \{\{ post.content | strip_html | truncatewords: 50 \}\}</code> , produces a more consistent excerpt. It gets the first 50 words and strips any formatting.</p>
+
+<!-- more -->
+
+<p>This method can automatically create a summary of article. However if the article begin with <q>code</q> or <q>markdown tags</q>, you will find the article css style can not shown on the home page.</p>
+
+<p><strong>Method 2.</strong> In <a href="https://github.com/yulijia/freshman21/blob/master/index.html">index.html</a> file, using <code>\{\{ post.summary \}\}</code> to insted of <code>\{\{ post.content \}\}</code>, produces a summary of post. You need add summary in each <q>post</q> file, <a href="https://gist.github.com/yulijia/2f865b78a28bfe9e0a81#file-a-article-post-with-summary">example</a></p>
+
+<p>Then you will find all articles summary in the home page.</p>
+
+<h3 id="how-to-create-a-read-more-button-for-a-post">How to create a read more button for a post?</h3>
+
+<p>Basically, freshman21 doesn’t support “read more” button.</p>
+
+<p>To create a page link(button) is very easy.</p>
+
+<p>Just add</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"\{\{ post.url | prepend: site.baseurl \}\}"</span><span class="nt">&gt;</span>read more<span class="nt">&lt;/a&gt;&lt;/p&gt;</span> 
+</code></pre></div></div>
+
+<p>after <code>\{\{post.summary\}\}</code></p>
+
+<h2 id="the-example-of-post-summary-at-gist">The example of post summary at <a href="https://gist.github.com/yulijia/2f865b78a28bfe9e0a81">Gist</a>.</h2>
+
+:ET

@@ -1,0 +1,12 @@
+I"Q<p>I made a small change in the gh-pages branch, add google analytics script.</p>
+
+<p>The main <q>JS</q> script was in the <q>_include</q> folder, and  this JS file was included in <q>head.html</q>.</p>
+
+<p>In <q>_config.yml</q> file, I add the Google analytics key.</p>
+
+<p>To fork the version with google analytics, please try this command:</p>
+
+<p><code>git clone --branch gh-pages https://github.com/yulijia/freshman21.git</code></p>
+
+<h3 id="attention-only-gh-pages-branch-has-google-analytics-and-this-article">Attention: Only gh-pages branch has google analytics and this article.</h3>
+:ET

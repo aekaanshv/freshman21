@@ -1,2 +1,12 @@
 _site
 .sass-cache
+.jekyll-metadata
+yarn.lock
+Gemfile.lock
+package-lock.json
+node_modules/
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
